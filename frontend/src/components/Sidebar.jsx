@@ -25,6 +25,11 @@ const Sidebar = () => {
             <img src={assets.plus_icon} className="w-5" alt="" />
           </div>
         </div>
+        <div className="p-4 flex flex-col bg-[#242424] m-2 rounded font-semibold items-start justify-start gap-1 pl-4">
+          <h1>Create your first playlist</h1>
+          <p className="font-light">Its easy we will help you</p>
+          <button></button>
+        </div>
       </div>
     </div>
   );
